@@ -1,0 +1,161 @@
+* {
+    font-family: roboto;
+    font-size: large;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.head, .footer {
+    background-color: #1f2937;
+    color: white;
+    width: 1450px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.htop, .hbottom {
+    display: flex;
+    width: 1000px;
+    gap: 20px;
+}
+
+.hbottom {
+    margin: 100px 0px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.hbleft, .hbright {
+    flex: 1;
+}
+
+.hbleft .header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0px;
+}
+
+.hbleft .text {
+    margin: 10px 0px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: #E5E7EB;
+}
+
+.hbright {
+    color: #E5E7EB;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: white;
+    width: 1450px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .header {
+    font-size: 36px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.flower {
+    width: 160px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px 350px;
+    width: 1450px;
+    box-sizing: border-box;
+}
+
+.qwords {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.qperson {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.plug {
+    margin: 100px;
+}
+
+.container {
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px 120px;
+    color: white;
+}
+
+.pleft .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.pright {
+    margin-left: auto;
+}
+
+.pright .signup {
+    border-style: solid;
+}
